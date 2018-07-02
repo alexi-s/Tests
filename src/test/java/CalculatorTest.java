@@ -42,7 +42,7 @@ public class CalculatorTest {
     public void div() throws InterruptedException {
         double result = Calculator.div(21.0, 3.0);
         assertEquals(7.0, result, 0.0);
-        Thread.sleep(1500);
+        Thread.sleep(500);
     }
 
     @Test(expected = ArithmeticException.class)
