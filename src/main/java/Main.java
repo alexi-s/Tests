@@ -1,6 +1,15 @@
+import model.User;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        User u1 = User.builder()
+                .email("admin@gmail.com")
+                .username("admin")
+                .password("admin")
+                .build();
+
+        System.out.println(u1);
+
     }
 }
