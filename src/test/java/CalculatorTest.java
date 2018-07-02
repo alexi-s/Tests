@@ -60,4 +60,10 @@ public class CalculatorTest {
     public static void afterClass() {
         System.out.println("After all tests");
     }
+
+    @Test
+    public void divP() {
+        int result = Calculator.divP(5, 3);
+        assertEquals(2, result);
+    }
 }
